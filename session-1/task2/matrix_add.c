@@ -16,5 +16,17 @@
     Store your answer in matrix c
     Print your final answer
     */
+
+    for (int k=0; k<4; ++k){
+      for (int j=0; j<4; ++j){
+         a[k][j] = 1;
+         b[k][j] = 1;
+         
+   printf("%i, %i", a[0], a);
+      }
+    }
+
+
+
     return 0;
  }
