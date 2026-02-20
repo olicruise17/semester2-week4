@@ -15,9 +15,18 @@ int main( void ) {
 
     // use 'strcmp' to compare 2 strings - print the return value
 
+    int is_equal = strcmp( str1, str2 );
+    printf("%d\n",is_equal);
+
     // use 'strcat' to concatenate 2 strings - print the resulting string
 
+    char *combined = strcat( str1, str2 );
+    printf("%s\n",combined);
+
     // use 'strcpy' to copy a string into str3 - print string 3
+
+    strcpy( str3, str2 );
+    printf("%s\n",str3);
 
     return 0;
 }
