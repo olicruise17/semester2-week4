@@ -11,7 +11,7 @@ int main( int argc, char **argv ) {
 
     // define appropriate data to hold your answer
 
-    char buffer[10] = {0};
+    char buffer[1000] = {0};
 
     // process the command-line data using appropriate string functions
 
@@ -21,7 +21,7 @@ int main( int argc, char **argv ) {
         strcat(buffer, argv[k]);
         if (k < argc - 1) {
             strcat(buffer,"-");
-        }
+        
     }
 
     printf("%s\n",buffer); // use only this single print statement in your submitted code
